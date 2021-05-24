@@ -1,4 +1,7 @@
 $(document).ready(function () {
+    var $grid = $('.grid').isotope({
+        layoutMode: 'fitRows'
+    });
     var filterFns = {
         numberGreaterThan50: function () {
             var number = $(this).find('.number').text();
