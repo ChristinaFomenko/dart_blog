@@ -6,7 +6,7 @@ $(document).ready(function () {
         if (location == link){
             $(this).parent().addClass('active');
         }
-        });
+    });
 
     var $grid = $('.grid').isotope({
         layoutMode: 'fitRows'
